@@ -18,3 +18,13 @@ print(t)
 t = ('a', 'b', ['A', 'B'])
 t[2].append("c")
 print(t)
+
+# dictionary
+d= {'Michael': 95, 'Bob': 75, 'Tracy': 85}
+print(d['Bob'])
+print("Bob" in d)
+print(d.get("Bob"))
+# 删除
+d.pop("Bob")
+# print(d['Bob'])
+# set
